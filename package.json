@@ -11,10 +11,15 @@
     "format:fix": "prettier --write --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@tanstack/react-form": "^0.41.3",
+    "@tanstack/react-query": "^5.66.0",
+    "@tanstack/react-query-devtools": "^5.66.0",
+    "@tanstack/react-router": "^1.99.0",
+    "@tanstack/router-devtools": "^1.99.0",
+    "daisyui": "^4.12.23",
     "next": "14.2.0",
     "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "zustand": "^4.5.2"
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
